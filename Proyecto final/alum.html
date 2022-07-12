@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alumnos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style2.css">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <!--Buscador-->
+  <nav class="navbar "><!--etiqueta nav es un contenedor de enlaces-->
+    <div class="container-fluid">
+      <a class="navbar-brand" href="pagina_princ.html">
+        <img src="img/logo.jpg" alt style="width: 180px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body"><!--desplegable lateral-->
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link" href="camp.html">Campus</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Formulario.html">Formulario</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Students eden
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                <li><a class="dropdown-item" href="alum.html">Notes/registration</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="calculadora.html">Calculadora</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+<!--fin del buscador-->
+ <!--Pie de página-->
+ <footer class="pie-pagina">
+  <div class="grupo-1">
+    <div class="box">
+      <figure>
+      <a href="#">
+        <img src="Img/logo.jpg" alt="logo de Harvard" >
+      </a>
+    </figure></div>
+      
+    <div class="box">
+      <h2>SOBRE NOSOTROS</h2>
+        <p><FONT COLOR="white">HBS Online ofrece una forma única y muy atractiva de aprender conceptos comerciales vitales, lo que permite a los estudiantes comprometidos transformar sus carreras, sus organizaciones y sus vidas. </FONT></p>
+    </div>
+    <div class="box">
+      <h2>SIGUENOS</h2>
+      <div class="red-social">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-youtube"></a>
+      </div>
+    </div>
+  </div>
+  <div class="grupo-2">
+      <small>&copy; 2022 <b>MORENO-MEDRANO</b>-Todos Los Derechos Reservados</small>
+  </div>
+</footer>
+<script src="https://kit.fontawesome.com/de3d576e9f.js" crossorigin="anonymous"></script>
+  </body>
+</html>
